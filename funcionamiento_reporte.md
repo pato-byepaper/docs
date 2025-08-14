@@ -14,7 +14,7 @@ Antes de iniciar, asegúrate de tener acceso al módulo de reportes de la plataf
 ## Pasos Clave
 
 <Steps titleSize="h3">
-  <Step title="Paso 1 · Introducción a los Reportes" icon="light-bulb" iconType="solid" stepNumber={1}>
+  <Step title="Paso 1 · Introducción a los Reportes" icon="flag" iconType="solid" stepNumber={1}>
     Conoce la funcionalidad de reportes de la plataforma.
     <ul>
       <li>Herramienta esencial para mantener la excelencia operativa.</li>
