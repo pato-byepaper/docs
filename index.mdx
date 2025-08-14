@@ -1,63 +1,129 @@
 ---
-title: "Introduction"
-description: "Welcome to the new home for your documentation"
+title: "Guía de Configuración del Hotel"
+description: "Procedimiento paso a paso para configurar tu hotel en Neio.io"
 ---
 
-# 7 Pasos Esenciales para Configurar tu Hotel y Optimizar la Gestión de Mantenimiento
+# 7 Pasos Esenciales para Configurar tu Hotel
 
-## Objetivo
-Este SOP proporciona una guía paso a paso para configurar un hotel en la plataforma Neyo, optimizando así la gestión de mantenimiento.
+Este Procedimiento Operativo Estándar (SOP) te guía paso a paso para configurar un hotel en la plataforma Neyo y optimizar la gestión de mantenimiento desde el primer día.
 
----
+<Note>
+Antes de empezar, ten a la mano: nombre del hotel, dirección, categorías de elementos, tipos de habitaciones y correos del personal que vas a invitar.
+</Note>
 
 ## Pasos Clave
 
-1.  **Configuración General**
-    * Define la información básica de tu hotel:
-        * Nombre del hotel
-        * Ubicación
-        * Datos generales que personalizarán la plataforma.
+<Steps titleSize="h3">
+  <Step title="Paso 1 · Configuración General" icon="building-2" stepNumber={1}>
+    Define la información fundamental de tu hotel:
+    <ul>
+      <li>Nombre del hotel</li>
+      <li>Ubicación / dirección</li>
+      <li>Datos generales que personalizan la plataforma</li>
+    </ul>
 
-2.  **Configurar Pisos**
-    * Establece la configuración de los pisos de tu hotel.
+    <Info>
+    Consejo de naming: usa el mismo nombre que aparece en tu PMS para evitar confusiones entre equipos.
+    </Info>
+  </Step>
 
-3.  **Configurar Elementos**
-    * Define los elementos que se pueden encontrar en tu hotel:
-        * Nombre del elemento
-        * Vida útil del elemento
-        * Categoría del elemento
-        * Mantenimiento programado (si aplica).
+  <Step title="Paso 2 · Configurar Pisos" icon="layers" stepNumber={2}>
+    Crea la estructura de pisos tal como existe en la propiedad. Esto facilita rutas de mantenimiento y reportes.
+    <Tip>
+    Si tu propiedad tiene torres o edificios, considera usar un prefijo (p.ej. T1-Piso 3) para mantener claridad.
+    </Tip>
+  </Step>
 
-4.  **Configurar Habitaciones**
-    * Establece los diferentes tipos de habitaciones para:
-        * Reportes específicos
-        * Estadísticas futuras.
+  <Step title="Paso 3 · Configurar Elementos" icon="package" stepNumber={3}>
+    Define los elementos que se pueden encontrar en tu hotel:
+    <ul>
+      <li>Nombre, <Tooltip tip="Tiempo estimado antes de sustitución o overhaul.">vida útil</Tooltip> y categoría del elemento</li>
+      <li><Tooltip tip="Actividades definidas por tiempo/uso, p.ej. trimestral o por horas de operación.">Mantenimiento programado</Tooltip> (si aplica)</li>
+    </ul>
+    <Warning>
+    No mezcles categorías (p.ej. HVAC vs. Electricidad). Una mala categorización complica los reportes y la trazabilidad.
+    </Warning>
+  </Step>
 
-5.  **Configurar Áreas Comunes**
-    * Añade las áreas comunes de tu hotel:
-        * Restaurante
-        * Lobby
-        * Piscina
-        * Otras áreas comunes para un mantenimiento integral.
+  <Step title="Paso 4 · Configurar Habitaciones" icon="bed" stepNumber={4}>
+    Crea tipos de habitaciones y asigna sus atributos para habilitar:
+    <ul>
+      <li>Reportes específicos</li>
+      <li>Estadísticas futuras por tipo</li>
+    </ul>
+    <Tip>
+    Empieza por los tipos más vendidos y luego agrega variantes; así puedes salir en producción más rápido.
+    </Tip>
+  </Step>
 
-6.  **Agregar Personal**
-    * Invita a tu equipo:
-        * Técnicos
-        * Supervisores
-        * Camaristas
-    * Asigna tareas y responsabilidades a cada miembro del equipo.
+  <Step title="Paso 5 · Configurar Áreas Comunes" icon="layout-grid" stepNumber={5}>
+    Añade áreas como restaurante, lobby o piscina para llevar un mantenimiento integral y trazable.
+    <Info>
+    Usa descripciones breves (p.ej. “Piscina principal · 25m”) para ayudar a búsqueda y filtros.
+    </Info>
+  </Step>
 
-7.  **Finalización de la Configuración**
-    * Verifica que el hotel esté completamente configurado y listo para operar.
+  <Step title="Paso 6 · Agregar Personal" icon="users" stepNumber={6}>
+    Invita a tu equipo (técnicos, supervisores, camaristas) y asigna permisos y responsabilidades.
+    <Warning>
+    Asigna el <Tooltip tip="Permisos de ver/crear/editar/borrar por módulo.">rol</Tooltip> adecuado desde el inicio. Un rol demasiado amplio puede causar cambios no deseados.
+    </Warning>
+  </Step>
+
+  <Step title="Paso 7 · Finalización y Verificación" icon="check-circle-2" stepNumber={7}>
+    Revisa que todo esté listo para operar.
+    <Check>
+    Criterio de salida: estructura creada, elementos críticos con mantenimiento programado, usuarios clave invitados y primer ciclo de revisión calendarizado.
+    </Check>
+  </Step>
+</Steps>
 
 ---
 
 ## Notas de Precaución
-* Asegúrate de ingresar información precisa para evitar confusiones en la gestión.
-* Revisa cada sección antes de proceder al siguiente paso para garantizar que no falte información importante.
 
-## Consejos para la Eficiencia
-* Utiliza plantillas para la información básica del hotel para acelerar el proceso de configuración.
-* Mantén una lista de verificación para cada paso para asegurar que no se omita ningún detalle importante.
+<Warning>
+Asegúrate de ingresar información precisa. Errores en nombres o categorías impactan búsquedas, métricas y tiempos de respuesta.
+</Warning>
 
-[Guía visual del proceso en video](https://loom.com/share/04c68c1ccad54f0ba5b0fc589875f9f2)
+<Info>
+Revisa cada sección antes de pasar al siguiente paso para asegurar que no falte información importante.
+</Info>
+
+---
+
+## Consejos de Eficiencia
+
+<Tip>
+Crea plantillas para información básica (nombres estándar, categorías, ciclos de mantenimiento). Te ahorra mucho tiempo al replicar en múltiples propiedades.
+</Tip>
+
+<Tip>
+Mantén una <Tooltip tip="Lista rápida con casillas para validar que nada se te pasa.">lista de verificación</Tooltip> por paso y asigna responsables por área (Operaciones, Mantenimiento, Ama de llaves).
+</Tip>
+
+---
+
+## Lista de Verificación (Checklist)
+
+- [ ] Datos generales del hotel completos
+- [ ] Pisos configurados y nombrados consistentemente
+- [ ] Elementos críticos con categorías y vida útil definidas
+- [ ] Mantenimiento programado creado para equipos clave
+- [ ] Tipos de habitación listos y vinculados a pisos
+- [ ] Áreas comunes registradas con descripciones claras
+- [ ] Personal invitado con roles correctos
+- [ ] Revisión final y primer ciclo de mantenimiento calendarizado
+
+---
+
+## Guía Visual (Video)
+
+<iframe
+  className="w-full aspect-video rounded-xl"
+  src="https://www.loom.com/embed/04c68c1ccad54f0ba5b0fc589875f9f2"
+  title="Configuración de hotel en Neyo"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
