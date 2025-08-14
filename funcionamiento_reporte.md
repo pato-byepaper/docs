@@ -22,7 +22,7 @@ Antes de iniciar, asegúrate de tener acceso al módulo de reportes de la plataf
     </ul>
   </Step>
 
-  <Step title="Paso 2 · Definición de Reporte" icon="document-text" iconType="solid" stepNumber={2}>
+  <Step title="Paso 2 · Definición de Reporte" icon="document" iconType="solid" stepNumber={2}>
     Un reporte es un registro digital que documenta incidencias, tareas o necesidades de mantenimiento.
     <ul>
       <li>Funciona como un historial confiable y accesible en todo momento.</li>
@@ -30,7 +30,7 @@ Antes de iniciar, asegúrate de tener acceso al módulo de reportes de la plataf
     </ul>
   </Step>
 
-  <Step title="Paso 3 · Ciclo de Vida del Reporte" icon="arrows-right-left" iconType="solid" stepNumber={3}>
+  <Step title="Paso 3 · Ciclo de Vida del Reporte" icon="layer-group" iconType="solid" stepNumber={3}>
     Entiende las etapas clave:
     <ul>
       <li>Creación del reporte</li>
@@ -51,7 +51,7 @@ Antes de iniciar, asegúrate de tener acceso al módulo de reportes de la plataf
     </ul>
   </Step>
 
-  <Step title="Paso 5 · Proceso de Creación de Reportes" icon="plus-circle" iconType="solid" stepNumber={5}>
+  <Step title="Paso 5 · Proceso de Creación de Reportes" icon="plus" iconType="solid" stepNumber={5}>
     Para crear un reporte:
     <ul>
       <li>Identifica la ubicación del problema: piso y número de habitación.</li>
@@ -62,7 +62,7 @@ Antes de iniciar, asegúrate de tener acceso al módulo de reportes de la plataf
     </Tip>
   </Step>
 
-  <Step title="Paso 6 · Descripción del Problema" icon="pencil-square" iconType="solid" stepNumber={6}>
+  <Step title="Paso 6 · Descripción del Problema" icon="pencil" iconType="solid" stepNumber={6}>
     Completa la información detallada:
     <ul>
       <li>Describe el problema: ¿Qué ocurre? ¿Desde cuándo?</li>
