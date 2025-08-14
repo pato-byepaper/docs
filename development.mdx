@@ -1,94 +1,52 @@
 ---
-title: 'Development'
-description: 'Preview changes locally to update your docs'
+title: "Guía para Jefes Técnicos"
+description: "Procedimiento Operativo Estándar para la gestión de mantenimiento."
 ---
 
-<Info>
-  **Prerequisites**:
-  - Node.js version 19 or higher
-  - A docs repository with a `docs.json` file
-</Info>
+# Procedimiento Operativo Estándar para Jefes Técnicos en Mantenimiento Hotelero
 
-Follow these steps to install and run Mintlify on your operating system.
+Este SOP proporciona una guía clara para que los jefes técnicos coordinen y gestionen eficientemente el mantenimiento hotelero.
+
+---
+
+## Pasos Clave
 
 <Steps>
-<Step title="Install the Mintlify CLI">
+### Paso 1: Introducción y Liderazgo Técnico
+Bienvenido al panel de jefe técnico. Eres el corazón operativo del mantenimiento hotelero. Tu liderazgo técnico es crucial; toma el control y haz la diferencia.
 
-```bash
-npm i -g mint
-```
-</Step>
+### Paso 2: Control y Gestión del Equipo
+Tienes el control total del equipo de mantenimiento. Tu misión incluye asignar, supervisar y priorizar las tareas para asegurar la excelencia operativa del hotel.
 
-<Step title="Preview locally">
+### Paso 3: Gestión de Inspecciones y Problemas
+Gestiona inspecciones programadas y distribuye las tareas entre tu equipo. Asegúrate de que cada problema se resuelva de manera eficiente y oportuna.
 
-Navigate to your docs directory where your `docs.json` file is located, and run the following command:
-
-```bash
-mint dev
-```
-
-A local preview of your documentation will be available at `http://localhost:3000`.
-
-</Step>
+### Paso 4: Uso del Centro de Comando
+Utiliza el centro de comando para:
+- Acceder a métricas clave de reportes y tareas activas.
+- Revisar cronogramas de carga de trabajo de tu equipo.
+- Analizar el rendimiento para detectar cuellos de botella.
+- Recibir alertas críticas.
 </Steps>
 
-## Custom ports
+---
 
-By default, Mintlify uses port 3000. You can customize the port Mintlify runs on by using the `--port` flag. For example, to run Mintlify on port 3333, use this command:
+## Notas de Precaución
+- Asegúrate de que todas las tareas estén claramente definidas y asignadas.
+- Mantén una comunicación constante con tu equipo para evitar malentendidos.
 
-```bash
-mint dev --port 3333
-```
+---
 
-If you attempt to run Mintlify on a port that's already in use, it will use the next available port:
+## Consejos para la Eficiencia
+- Revisa las métricas regularmente para identificar áreas de mejora.
+- Prioriza tareas según su urgencia y su impacto en la operación del hotel.
+- Fomenta un ambiente de trabajo colaborativo entre los técnicos.
 
-```md
-Port 3000 is already in use. Trying 3001 instead.
-```
-
-## Mintlify versions
-
-Please note that each CLI release is associated with a specific version of Mintlify. If your local preview does not align with the production version, please update the CLI:
-
-```bash
-npm mint update
-```
-
-## Validating links
-
-The CLI can assist with validating links in your documentation. To identify any broken links, use the following command:
-
-```bash
-mint broken-links
-```
-
-## Deployment
-
-If the deployment is successful, you should see the following:
-
-<Frame>
-  <img src="/images/checks-passed.png" alt="Screenshot of a deployment confirmation message that says All checks have passed." style={{ borderRadius: '0.5rem' }} />
-</Frame>
-
-## Code formatting
-
-We suggest using extensions on your IDE to recognize and format MDX. If you're a VSCode user, consider the [MDX VSCode extension](https://marketplace.visualstudio.com/items?itemName=unifiedjs.vscode-mdx) for syntax highlighting, and [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) for code formatting.
-
-## Troubleshooting
-
-<AccordionGroup>
-  <Accordion title='Error: Could not load the "sharp" module using the darwin-arm64 runtime'>
-
-    This may be due to an outdated version of node. Try the following:
-    1. Remove the currently-installed version of the CLI: `npm remove -g mint`
-    2. Upgrade to Node v19 or higher.
-    3. Reinstall the CLI: `npm i -g mint`
-  </Accordion>
-
-  <Accordion title="Issue: Encountering an unknown error">
-  
-    Solution: Go to the root of your device and delete the `~/.mintlify` folder. Then run `mint dev` again.
-  </Accordion>
-</AccordionGroup>
-
-Curious about what changed in the latest CLI version? Check out the [CLI changelog](https://www.npmjs.com/package/mintlify?activeTab=versions).
+<iframe
+  className="w-full aspect-video rounded-xl"
+  src="https://loom.com/share/c3c4b0030e2840dcbfdd95adb1f93bd1"
+  title="Guía para Jefes Técnicos"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
