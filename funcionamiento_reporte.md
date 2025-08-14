@@ -14,7 +14,7 @@ Antes de iniciar, asegúrate de tener acceso al módulo de reportes de la plataf
 ## Pasos Clave
 
 <Steps titleSize="h3">
-  <Step title="Paso 1 · Introducción a los Reportes" icon="document" iconType="solid" stepNumber={1}>
+  <Step title="Paso 1 · Introducción a los Reportes" icon="information-circle" iconType="solid" stepNumber={1}>
     Conoce la funcionalidad de reportes de la plataforma.
     <ul>
       <li>Herramienta esencial para mantener la excelencia operativa.</li>
@@ -22,7 +22,7 @@ Antes de iniciar, asegúrate de tener acceso al módulo de reportes de la plataf
     </ul>
   </Step>
 
-  <Step title="Paso 2 · Definición de Reporte" icon="document" iconType="solid" stepNumber={2}>
+  <Step title="Paso 2 · Definición de Reporte" icon="book-open" iconType="solid" stepNumber={2}>
     Un reporte es un registro digital que documenta incidencias, tareas o necesidades de mantenimiento.
     <ul>
       <li>Funciona como un historial confiable y accesible en todo momento.</li>
