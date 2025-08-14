@@ -22,7 +22,7 @@ Antes de iniciar, asegúrate de tener acceso al sistema de gestión y estar fami
     </ul>
   </Step>
 
-  <Step title="Paso 2 · Reportar Problemas de Habitaciones" icon="exclamation-circle" iconType="solid" stepNumber={2}>
+  <Step title="Paso 2 · Reportar Problemas de Habitaciones" icon="exclamation-triangle" iconType="solid" stepNumber={2}>
     Reporta cualquier inconveniente detectado en la habitación de forma rápida.
     <ul>
       <li>Usa <strong>Two Dashboards</strong> para registrar incidencias.</li>
@@ -33,7 +33,7 @@ Antes de iniciar, asegúrate de tener acceso al sistema de gestión y estar fami
     </Tip>
   </Step>
 
-  <Step title="Paso 3 · Buscar Habitaciones por Número" icon="search" iconType="solid" stepNumber={3}>
+  <Step title="Paso 3 · Buscar Habitaciones por Número" icon="search" iconType="magnifying-glass" stepNumber={3}>
     Localiza habitaciones de forma eficiente.
     <ul>
       <li>Introduce el número de habitación para consultar su estado.</li>
