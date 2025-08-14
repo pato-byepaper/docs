@@ -22,7 +22,8 @@
               "tecnico",
               "proveedor",
               "camarista",
-              "funcionamiento_reporte"
+              "funcionamiento_reporte",
+              "reporte_inspeccion"
             ]
           },
           {
