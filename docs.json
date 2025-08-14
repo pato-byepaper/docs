@@ -17,8 +17,10 @@
             "group": "Getting started",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "admin",
+              "jefe_tecnico",
+              "tecnico",
+              "b"
             ]
           },
           {
