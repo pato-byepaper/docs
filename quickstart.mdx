@@ -1,80 +1,129 @@
 ---
-title: "Quickstart"
-description: "Start building awesome documentation in minutes"
+title: "Guía de Configuración del Hotel"
+description: "Procedimiento paso a paso para configurar tu hotel en Neio.io"
 ---
 
-## Get started in three steps
+# 7 Pasos Esenciales para Configurar tu Hotel
 
-Get your documentation site running locally and make your first customization.
-
-### Step 1: Set up your local environment
-
-<AccordionGroup>
-  <Accordion icon="copy" title="Clone your docs locally">
-    During the onboarding process, you created a GitHub repository with your docs content if you didn't already have one. You can find a link to this repository in your [dashboard](https://dashboard.mintlify.com).
-    
-    To clone the repository locally so that you can make and preview changes to your docs, follow the [Cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) guide in the GitHub docs.
-  </Accordion>
-  <Accordion icon="rectangle-terminal" title="Start the preview server">
-    1. Install the Mintlify CLI: `npm i -g mint`
-    2. Navigate to your docs directory and run: `mint dev`
-    3. Open `http://localhost:3000` to see your docs live!
-    
-    <Tip>Your preview updates automatically as you edit files.</Tip>
-  </Accordion>
-</AccordionGroup>
-
-### Step 2: Deploy your changes
-
-<AccordionGroup>
-  <Accordion icon="github" title="Install our GitHub app">
-    Install the Mintlify GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app).
-    
-    Our GitHub app automatically deploys your changes to your docs site, so you don't need to manage deployments yourself.
-</Accordion>
-<Accordion icon="palette" title="Update your site name and colors">
-    For a first change, let's update the name and colors of your docs site.
-
-    1. Open `docs.json` in your editor.
-    2. Change the `"name"` field to your project name.
-    3. Update the `"colors"` to match your brand.
-    4. Save and see your changes instantly at `http://localhost:3000`.
-
-    <Tip>Try changing the primary color to see an immediate difference!</Tip>
-  </Accordion>
-</AccordionGroup>
-
-### Step 3: Go live
-
-<Accordion icon="rocket" title="Publish your docs">
-  1. Commit and push your changes.
-  2. Your docs will update and be live in moments!
-</Accordion>
-
-## Next steps
-
-Now that you have your docs running, explore these key features:
-
-<CardGroup cols={2}>
-
-<Card title="Write Content" icon="pen-to-square" href="/essentials/markdown">
-  Learn MDX syntax and start writing your documentation.
-</Card>
-
-<Card title="Customize style" icon="palette" href="/essentials/settings">
-  Make your docs match your brand perfectly.
-</Card>
-
-<Card title="Add code examples" icon="square-code" href="/essentials/code">
-  Include syntax-highlighted code blocks.
-</Card>
-
-<Card title="API documentation" icon="code" href="/api-reference/introduction">
-  Auto-generate API docs from OpenAPI specs.
-</Card>
-
-</CardGroup>
+Este Procedimiento Operativo Estándar (SOP) te guía paso a paso para configurar un hotel en la plataforma Neyo y optimizar la gestión de mantenimiento desde el primer día.
 
 <Note>
-  **Need help?** See our [full documentation](https://mintlify.com/docs) or join our [community](https://mintlify.com/community).
+Antes de empezar, ten a la mano: nombre del hotel, dirección, categorías de elementos, tipos de habitaciones y correos del personal que vas a invitar.
 </Note>
+
+## Pasos Clave
+
+<Steps titleSize="h3">
+  <Step title="Paso 1 · Configuración General" icon="building" iconType="solid" stepNumber={1}>
+    Define la información fundamental de tu hotel:
+    <ul>
+      <li>Nombre del hotel</li>
+      <li>Ubicación / dirección</li>
+      <li>Datos generales que personalizan la plataforma</li>
+    </ul>
+
+    <Info>
+    Consejo de naming: usa el mismo nombre que aparece en tu PMS para evitar confusiones entre equipos.
+    </Info>
+  </Step>
+
+  <Step title="Paso 2 · Configurar Pisos" icon="layer-group" iconType="solid" stepNumber={2}>
+    Crea la estructura de pisos tal como existe en la propiedad. Esto facilita rutas de mantenimiento y reportes.
+    <Tip>
+    Si tu propiedad tiene torres o edificios, considera usar un prefijo (p.ej. T1-Piso 3) para mantener claridad.
+    </Tip>
+  </Step>
+
+  <Step title="Paso 3 · Configurar Elementos" icon="box-open" iconType="solid" stepNumber={3}>
+    Define los elementos que se pueden encontrar en tu hotel:
+    <ul>
+      <li>Nombre, <Tooltip tip="Tiempo estimado antes de sustitución o overhaul.">vida útil</Tooltip> y categoría del elemento</li>
+      <li><Tooltip tip="Actividades definidas por tiempo/uso, p.ej. trimestral o por horas de operación.">Mantenimiento programado</Tooltip> (si aplica)</li>
+    </ul>
+    <Warning>
+    No mezcles categorías (p.ej. HVAC vs. Electricidad). Una mala categorización complica los reportes y la trazabilidad.
+    </Warning>
+  </Step>
+
+  <Step title="Paso 4 · Configurar Habitaciones" icon="bed" stepNumber={4}>
+    Crea tipos de habitaciones y asigna sus atributos para habilitar:
+    <ul>
+      <li>Reportes específicos</li>
+      <li>Estadísticas futuras por tipo</li>
+    </ul>
+    <Tip>
+    Empieza por los tipos más vendidos y luego agrega variantes; así puedes salir en producción más rápido.
+    </Tip>
+  </Step>
+
+  <Step title="Paso 5 · Áreas Comunes" icon="border-all" iconType="solid" stepNumber={5}>
+    Añade áreas como restaurante, lobby o piscina para llevar un mantenimiento integral y trazable.
+    <Info>
+    Usa descripciones breves (p.ej. “Piscina principal · 25m”) para ayudar a búsqueda y filtros.
+    </Info>
+  </Step>
+
+  <Step title="Paso 6 · Agregar Personal" icon="users" stepNumber={6}>
+    Invita a tu equipo (técnicos, supervisores, camaristas) y asigna permisos y responsabilidades.
+    <Warning>
+    Asigna el <Tooltip tip="Permisos de ver/crear/editar/borrar por módulo.">rol</Tooltip> adecuado desde el inicio. Un rol demasiado amplio puede causar cambios no deseados.
+    </Warning>
+  </Step>
+
+  <Step title="Paso 7 · Finalización y Verificación" icon="circle-check" iconType="solid" stepNumber={7}>
+    Revisa que todo esté listo para operar.
+    <Check>
+    Criterio de salida: estructura creada, elementos críticos con mantenimiento programado, usuarios clave invitados y primer ciclo de revisión calendarizado.
+    </Check>
+  </Step>
+</Steps>
+
+---
+
+## Notas de Precaución
+
+<Warning>
+Asegúrate de ingresar información precisa. Errores en nombres o categorías impactan búsquedas, métricas y tiempos de respuesta.
+</Warning>
+
+<Info>
+Revisa cada sección antes de pasar al siguiente paso para asegurar que no falte información importante.
+</Info>
+
+---
+
+## Consejos de Eficiencia
+
+<Tip>
+Crea plantillas para información básica (nombres estándar, categorías, ciclos de mantenimiento). Te ahorra mucho tiempo al replicar en múltiples propiedades.
+</Tip>
+
+<Tip>
+Mantén una <Tooltip tip="Lista rápida con casillas para validar que nada se te pasa.">lista de verificación</Tooltip> por paso y asigna responsables por área (Operaciones, Mantenimiento, Ama de llaves).
+</Tip>
+
+---
+
+## Lista de Verificación (Checklist)
+
+- [ ] Datos generales del hotel completos
+- [ ] Pisos configurados y nombrados consistentemente
+- [ ] Elementos críticos con categorías y vida útil definidas
+- [ ] Mantenimiento programado creado para equipos clave
+- [ ] Tipos de habitación listos y vinculados a pisos
+- [ ] Áreas comunes registradas con descripciones claras
+- [ ] Personal invitado con roles correctos
+- [ ] Revisión final y primer ciclo de mantenimiento calendarizado
+
+---
+
+## Guía Visual (Video)
+
+<iframe
+  className="w-full aspect-video rounded-xl"
+  src="https://www.loom.com/embed/04c68c1ccad54f0ba5b0fc589875f9f2"
+  title="Configuración de hotel en Neyo"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
