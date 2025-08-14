@@ -8,7 +8,7 @@ description: "Guía paso a paso para el seguimiento y gestión eficiente de repo
 Este SOP describe el proceso para el seguimiento de reportes en el hotel, asegurando la eficiencia y la correcta asignación de tareas.
 
 <Steps titleSize="h3">
-  <Step title="Paso 1 · Acceder al Dashboard" icon="computer-desktop" iconType="solid" stepNumber={1}>
+  <Step title="Paso 1 · Acceder al Dashboard" icon="desktop-computer" iconType="solid" stepNumber={1}>
     Inicia sesión en el sistema de gestión del hotel.
     <ul>
       <li>Accede a tu Dashboard para tener una vista completa de todos los reportes.</li>
@@ -22,7 +22,7 @@ Este SOP describe el proceso para el seguimiento de reportes en el hotel, asegur
     </ul>
   </Step>
 
-  <Step title="Paso 3 · Generar Inspección" icon="document-plus" iconType="solid" stepNumber={3}>
+  <Step title="Paso 3 · Generar Inspección" icon="document-add" iconType="solid" stepNumber={3}>
     Haz clic en <strong>Generar inspección</strong>.
     <ul>
       <li>Aparecerá una ventana para generar inspecciones de reportes.</li>
@@ -36,11 +36,11 @@ Este SOP describe el proceso para el seguimiento de reportes en el hotel, asegur
     </ul>
   </Step>
 
-  <Step title="Paso 5 · Añadir Notas (opcional)" icon="pencil-square" iconType="solid" stepNumber={5}>
+  <Step title="Paso 5 · Añadir Notas (opcional)" icon="pencil-alt" iconType="solid" stepNumber={5}>
     Si es necesario, agrega una nota adicional para el técnico.
   </Step>
 
-  <Step title="Paso 6 · Crear Inspección" icon="check-circle" iconType="solid" stepNumber={6}>
+  <Step title="Paso 6 · Crear Inspección" icon="clipboard-check" iconType="solid" stepNumber={6}>
     Haz clic en <strong>Crear inspección</strong>.
     <ul>
       <li>Verifica que el reporte tenga un técnico asignado.</li>
