@@ -14,13 +14,13 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Empieza con NEIO",
             "pages": [
               "index",
               "admin",
               "jefe_tecnico",
               "tecnico",
-              "b"
+              "proveedor"
             ]
           },
           {
