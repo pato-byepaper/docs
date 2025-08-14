@@ -22,7 +22,7 @@ Antes de iniciar, asegúrate de tener acceso al sistema de gestión y estar fami
     </ul>
   </Step>
 
-  <Step title="Paso 2 · Reportar Problemas de Habitaciones" icon="exclamation-triangle" iconType="solid" stepNumber={2}>
+  <Step title="Paso 2 · Reportar Problemas de Habitaciones" icon="triangle-exclamation" iconType="solid" stepNumber={2}>
     Reporta cualquier inconveniente detectado en la habitación de forma rápida.
     <ul>
       <li>Usa <strong>Two Dashboards</strong> para registrar incidencias.</li>
@@ -41,7 +41,7 @@ Antes de iniciar, asegúrate de tener acceso al sistema de gestión y estar fami
     </ul>
   </Step>
 
-  <Step title="Paso 4 · Estado de los Reportes" icon="clipboard-document-check" iconType="solid" stepNumber={4}>
+  <Step title="Paso 4 · Estado de los Reportes" icon="check-circle" iconType="solid" stepNumber={4}>
     Interpreta correctamente los iconos de estado:
     <ul>
       <li><strong>Amarillo</strong>: Pendiente</li>
