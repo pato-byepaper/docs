@@ -1,5 +1,5 @@
 ---
-title: "Procedimiento Operativo Estándar para Camaristas"
+title: "SOP · Camaristas en NEIO"
 description: "Guía paso a paso para camaristas en el uso del sistema de gestión de habitaciones"
 ---
 
@@ -33,7 +33,7 @@ Antes de iniciar, asegúrate de tener acceso al sistema de gestión y estar fami
     </Tip>
   </Step>
 
-  <Step title="Paso 3 · Buscar Habitaciones por Número" icon="search" iconType="magnifying-glass" stepNumber={3}>
+  <Step title="Paso 3 · Buscar Habitaciones por Número" icon="magnifying-glass" iconType="solid" stepNumber={3}>
     Localiza habitaciones de forma eficiente.
     <ul>
       <li>Introduce el número de habitación para consultar su estado.</li>
@@ -41,7 +41,7 @@ Antes de iniciar, asegúrate de tener acceso al sistema de gestión y estar fami
     </ul>
   </Step>
 
-  <Step title="Paso 4 · Estado de los Reportes" icon="clipboard-check" iconType="solid" stepNumber={4}>
+  <Step title="Paso 4 · Estado de los Reportes" icon="clipboard-document-check" iconType="solid" stepNumber={4}>
     Interpreta correctamente los iconos de estado:
     <ul>
       <li><strong>Amarillo</strong>: Pendiente</li>
