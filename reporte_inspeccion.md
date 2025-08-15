@@ -22,7 +22,7 @@ Este SOP describe el proceso para el seguimiento de reportes en el hotel, asegur
     </ul>
   </Step>
 
-  <Step title="Paso 3 · Generar Inspección" icon="plus-circle" iconType="solid" stepNumber={3}>
+  <Step title="Paso 3 · Generar Inspección" icon="plus" iconType="solid" stepNumber={3}>
     Haz clic en <strong>Generar inspección</strong>.
     <ul>
       <li>Aparecerá una ventana para generar inspecciones de reportes.</li>
@@ -36,7 +36,7 @@ Este SOP describe el proceso para el seguimiento de reportes en el hotel, asegur
     </ul>
   </Step>
 
-  <Step title="Paso 5 · Añadir Notas (opcional)" icon="document-text" iconType="solid" stepNumber={5}>
+  <Step title="Paso 5 · Añadir Notas (opcional)" icon="pencil" iconType="solid" stepNumber={5}>
     Si es necesario, agrega una nota adicional para el técnico.
   </Step>
 
@@ -79,4 +79,4 @@ Este SOP describe el proceso para el seguimiento de reportes en el hotel, asegur
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowFullScreen
   loading="lazy"
-/>  
+></iframe>
