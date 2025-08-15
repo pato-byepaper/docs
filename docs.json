@@ -23,7 +23,8 @@
               "proveedor",
               "camarista",
               "funcionamiento_reporte",
-              "reporte_inspeccion"
+              "reporte_inspeccion",
+              "ciclo_de_mantenimiento"
             ]
           },
           {
