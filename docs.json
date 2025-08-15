@@ -29,7 +29,8 @@
               "inspeccion_recurrente", 
               "impacto_eventualidad",
               "seguimiento",
-              "Hotel_map"
+              "Hotel_map",
+              "dashboard_admin"
             ]
           },
           {
