@@ -75,9 +75,10 @@ Este SOP describe el proceso para realizar el seguimiento de inspecciones en el 
 
 <iframe
   className="w-full aspect-video rounded-xl"
-  src="https://loom.com/share/4550c18ad110436e9d30119d53bca717"
+  src="https://www.loom.com/embed/4550c18ad110436e9d30119d53bca717"
   title="seguimiento_inspecciones"
   frameBorder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowFullScreen
 ></iframe>
+
