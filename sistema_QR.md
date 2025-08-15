@@ -22,7 +22,7 @@ Antes de iniciar, asegúrese de tener acceso al panel de administración del hot
     </ul>
   </Step>
 
-  <Step title="Paso 2 · Activar el Sistema de Códigos QR" icon="power" iconType="solid" stepNumber={2}>
+  <Step title="Paso 2 · Activar el Sistema de Códigos QR" icon="check-circle" iconType="solid" stepNumber={2}>
     Active el sistema de códigos QR con un clic.
     <ul>
       <li>Configure los límites de uso por hora según sea necesario.</li>
