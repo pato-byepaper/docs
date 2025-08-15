@@ -27,7 +27,8 @@
               "ciclo_de_mantenimiento",
               "ciclo_mantenimiento_tipoespacio",
               "inspeccion_recurrente", 
-              "impacto_eventualidad"
+              "impacto_eventualidad",
+              "seguimiento"
             ]
           },
           {
