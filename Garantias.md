@@ -32,7 +32,7 @@ Antes de iniciar, asegúrese de tener acceso al módulo de garantías del sistem
     Cada garantía vinculada mejora el índice de salud del elemento.
   </Step>
 
-  <Step title="Paso 3 · Monitoreo de Garantías Vencidas" icon="check-circle" iconType="solid" stepNumber={3}>
+  <Step title="Paso 3 · Monitoreo de Garantías Vencidas" icon="circle-check" iconType="solid" stepNumber={3}>
     El sistema permite:
     <ul>
       <li>Identificar garantías que están por vencer.</li>
