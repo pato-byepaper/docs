@@ -43,7 +43,7 @@ Antes de comenzar, asegúrate de tener acceso al módulo de configuración del s
     Al crear nuevos espacios, verifica que hereden automáticamente el ciclo de mantenimiento del tipo de área configurado.
   </Step>
 
-  <Step title="Paso 5 · Personalizar ciclos de mantenimiento" icon="cog" iconType="solid" stepNumber={5}>
+  <Step title="Paso 5 · Personalizar ciclos de mantenimiento" icon="circle-check" iconType="solid" stepNumber={5}>
     Si un espacio requiere un ciclo diferente (por ejemplo, <strong>Alberca</strong>):
     <ul>
       <li>Ve a <strong>Áreas y Amenidades</strong>.</li>
