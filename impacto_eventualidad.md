@@ -14,7 +14,6 @@ Antes de comenzar, asegúrate de tener acceso al módulo de reportes y de estar 
     <ul>
       <li>El sistema establece una cadena de impacto que afecta al espacio donde se encuentra el elemento.</li>
     </ul>
-    <Image src="https://loom.com/i/d8474ce5a51a446da328874c5762b5da?workflows_screenshot=true" alt="Cadena de impacto" />
     <Info>
       Comprender la cadena de impacto ayuda a priorizar las reparaciones que afectan más a la experiencia del huésped.
     </Info>
@@ -27,7 +26,6 @@ Antes de comenzar, asegúrate de tener acceso al módulo de reportes y de estar 
       <li><strong>Reportes mayores:</strong> reducen 15 puntos.</li>
       <li><strong>Reportes menores:</strong> reducen 5 puntos.</li>
     </ul>
-    <Image src="https://loom.com/i/035aa318e7c04fb2a09454d6cd5c005c?workflows_screenshot=true" alt="Cuantificación de impacto" />
   </Step>
 
   <Step title="Paso 3 · Penalizaciones por Mantenimientos Vencidos" icon="exclamation-triangle" iconType="solid" stepNumber={3}>
@@ -35,7 +33,6 @@ Antes de comenzar, asegúrate de tener acceso al módulo de reportes y de estar 
       <li>Se aplican penalizaciones adicionales si hay mantenimientos vencidos.</li>
       <li>La puntuación del elemento instalado afecta el puntaje general de salud del espacio.</li>
     </ul>
-    <Image src="https://loom.com/i/ffe70f6b95114452b064df95315f7768?workflows_screenshot=true" alt="Penalizaciones" />
   </Step>
 
   <Step title="Paso 4 · Identificación de Situaciones Críticas" icon="search" iconType="solid" stepNumber={4}>
