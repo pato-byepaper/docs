@@ -22,7 +22,7 @@ Antes de iniciar, verifica que tengas acceso al sistema y credenciales válidas 
     </ul>
   </Step>
 
-  <Step title="Paso 2 · Importancia del Sistema" icon="information-circle" iconType="solid" stepNumber={2}>
+  <Step title="Paso 2 · Importancia del Sistema" icon="information" iconType="solid" stepNumber={2}>
     Entiende por qué el sistema es esencial.
     <ul>
       <li>Centraliza la información de tareas y reportes.</li>
