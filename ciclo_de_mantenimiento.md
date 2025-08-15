@@ -5,7 +5,7 @@ description: "Guía para utilizar el sistema de gestión de tareas y optimizar e
 
 # Procedimiento Operativo Estándar para el Sistema de Gestión de Tareas
 
-Este SOP proporciona una guía clara para el uso del sistema de gestión de tareas, asegurando que los técnicos y miembros del equipo puedan organizar, ejecutar y documentar el trabajo de mantenimiento de manera eficiente.
+Este SOP proporciona una guía clara para el uso del sistema de gestión de tareas, asegurando que los técnicos y miembros del equipo puedan organizar, ejecutar y documentar el ciclo de mantenimiento de manera eficiente.
 
 <Note>
 Antes de iniciar, verifica que tengas acceso al sistema y credenciales válidas para iniciar sesión.
