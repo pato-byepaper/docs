@@ -74,10 +74,9 @@ Este SOP describe el proceso para el seguimiento de reportes en el hotel, asegur
 
 <iframe
   className="w-full aspect-video rounded-xl"
-  src="https://loom.com/share/13bbd4b422704249a8668a7986aa6d33"
-  title="Reporte Inspección"
+  src="https://www.loom.com/embed/13bbd4b422704249a8668a7986aa6d33"
+  title="reporte_inspeccion"
   frameBorder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowFullScreen
-  loading="lazy"
-/>
+></iframe>
