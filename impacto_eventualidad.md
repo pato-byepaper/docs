@@ -19,7 +19,7 @@ Antes de comenzar, asegúrate de tener acceso al módulo de reportes y de estar 
     </Info>
   </Step>
 
-  <Step title="Paso 2 · Cuantificación del Impacto" icon="balance-scale" iconType="solid" stepNumber={2}>
+  <Step title="Paso 2 · Cuantificación del Impacto" icon="book-open" iconType="solid" stepNumber={2}>
     El sistema cuantifica el impacto de los reportes de la siguiente manera:
     <ul>
       <li><strong>Reportes críticos:</strong> reducen 30 puntos al puntaje de salud del elemento.</li>
@@ -28,14 +28,14 @@ Antes de comenzar, asegúrate de tener acceso al módulo de reportes y de estar 
     </ul>
   </Step>
 
-  <Step title="Paso 3 · Penalizaciones por Mantenimientos Vencidos" icon="exclamation-triangle" iconType="solid" stepNumber={3}>
+  <Step title="Paso 3 · Penalizaciones por Mantenimientos Vencidos" icon="layer-group" iconType="solid" stepNumber={3}>
     <ul>
       <li>Se aplican penalizaciones adicionales si hay mantenimientos vencidos.</li>
       <li>La puntuación del elemento instalado afecta el puntaje general de salud del espacio.</li>
     </ul>
   </Step>
 
-  <Step title="Paso 4 · Identificación de Situaciones Críticas" icon="search" iconType="solid" stepNumber={4}>
+  <Step title="Paso 4 · Identificación de Situaciones Críticas" icon="clipboard-list" iconType="solid" stepNumber={4}>
     <ul>
       <li>Los administradores deben identificar rápidamente las situaciones que requieren atención inmediata.</li>
       <li>Priorizar recursos de mantenimiento según la gravedad de los reportes.</li>
