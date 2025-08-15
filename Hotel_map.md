@@ -22,7 +22,7 @@ Este SOP proporciona pasos claros para utilizar el mapa del hotel como herramien
     </ul>
   </Step>
 
-  <Step title="Paso 3 · Información Detallada" icon="info-circle" iconType="solid" stepNumber={3}>
+  <Step title="Paso 3 · Información Detallada" icon="eye" iconType="solid" stepNumber={3}>
     Observa el panel derecho que se actualiza automáticamente con información detallada.
     <ul>
       <li>Toma nota de los colores que indican el estado de salud de cada espacio:</li>
@@ -43,7 +43,7 @@ Este SOP proporciona pasos claros para utilizar el mapa del hotel como herramien
     </ul>
   </Step>
 
-  <Step title="Paso 5 · Examinación de Elementos" icon="search" iconType="solid" stepNumber={5}>
+  <Step title="Paso 5 · Examinación de Elementos" icon="plus" iconType="solid" stepNumber={5}>
     Examina elementos específicos dentro de los espacios seleccionados.
   </Step>
 
