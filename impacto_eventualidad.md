@@ -1,3 +1,8 @@
+---
+title: "SOP · Procedimiento Operativo Estándar para la Gestión de Reportes de Mantenimiento"
+description: "Guía paso a paso para el seguimiento y gestión eficiente de reportes asegurando que las áreas que requieren atención sean priorizadas de manera eficiente."
+---
+
 ## Procedimiento Operativo Estándar para la Gestión de Reportes de Mantenimiento
 
 Este SOP describe el proceso para gestionar reportes de mantenimiento, asegurando que las áreas que requieren atención sean priorizadas de manera eficiente.
