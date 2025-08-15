@@ -83,7 +83,7 @@ Mantén un registro de los ciclos de mantenimiento personalizados para facilitar
 <iframe
   className="w-full aspect-video rounded-xl"
   src="https://www.loom.com/embed/2c544b97ab76444f8f42fd0bb083e4f9"
-  title="Configuración de ciclos de mantenimiento preventivo"
+  title="Configuración de ciclos de mantenimiento preventivo tipo espacio"
   frameBorder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowFullScreen
