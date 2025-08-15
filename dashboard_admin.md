@@ -1,3 +1,8 @@
+---
+title: "SOP · Procedimiento Operativo Estándar para la Gestión del Panel de Administración del Hotel"
+description: "Guía paso a paso para usar el panel de administración del hotel como herramienta de gestión operativa."
+---
+
 ## Procedimiento Operativo Estándar para la Gestión del Panel de Administración del Hotel
 
 ### Objective
