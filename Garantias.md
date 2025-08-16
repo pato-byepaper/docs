@@ -14,6 +14,7 @@ description: "Guía paso a paso para el seguimiento proactivo de garantías, opt
   allowFullScreen
 ></iframe>
 
+
 # Procedimiento Operativo Estándar para el Seguimiento Proactivo de Garantías
 
 Este SOP describe el proceso para el seguimiento proactivo de garantías, optimizando el mantenimiento y reduciendo costos.
