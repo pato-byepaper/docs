@@ -3,6 +3,17 @@ title: "SOP · Seguimiento Proactivo de Garantías"
 description: "Guía paso a paso para el seguimiento proactivo de garantías, optimizando el mantenimiento y reduciendo costos"
 ---
 
+## Guía Visual
+
+<iframe
+  className="w-full aspect-video rounded-xl"
+  src="https://www.loom.com/embed/4e6165ead8ad408690316f571e0b077b"
+  title="Seguimiento proactivo de garantías"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
+
 # Procedimiento Operativo Estándar para el Seguimiento Proactivo de Garantías
 
 Este SOP describe el proceso para el seguimiento proactivo de garantías, optimizando el mantenimiento y reduciendo costos.
@@ -78,13 +89,3 @@ Revise el índice de salud de los elementos para priorizar el mantenimiento.
 
 ---
 
-## Guía Visual
-
-<iframe
-  className="w-full aspect-video rounded-xl"
-  src="https://www.loom.com/embed/4e6165ead8ad408690316f571e0b077b"
-  title="Seguimiento proactivo de garantías"
-  frameBorder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowFullScreen
-></iframe>

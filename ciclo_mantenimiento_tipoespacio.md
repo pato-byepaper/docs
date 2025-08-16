@@ -3,6 +3,17 @@ title: "SOP · Procedimiento Operativo Estándar para Configuración de Ciclos d
 description: "Guía paso a paso para configurar ciclos de mantenimiento preventivo en un hotel, optimizando la satisfacción del huésped y la eficiencia operativa"
 ---
 
+## Guía Visual
+
+<iframe
+  className="w-full aspect-video rounded-xl"
+  src="https://www.loom.com/embed/2c544b97ab76444f8f42fd0bb083e4f9"
+  title="Configuración de ciclos de mantenimiento preventivo tipo espacio"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
+
 # Procedimiento Operativo Estándar para Configuración de Ciclos de Mantenimiento Preventivo
 
 Este SOP proporciona pasos claros para configurar ciclos de mantenimiento preventivo en un hotel, asegurando la satisfacción de los huéspedes y la eficiencia operativa.
@@ -77,14 +88,3 @@ Mantén un registro de los ciclos de mantenimiento personalizados para facilitar
 </Tip>
 
 ---
-
-## Guía Visual
-
-<iframe
-  className="w-full aspect-video rounded-xl"
-  src="https://www.loom.com/embed/2c544b97ab76444f8f42fd0bb083e4f9"
-  title="Configuración de ciclos de mantenimiento preventivo tipo espacio"
-  frameBorder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowFullScreen
-></iframe>

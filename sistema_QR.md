@@ -3,6 +3,17 @@ title: "SOP · Procedimiento Operativo Estándar para el Sistema de Códigos QR"
 description: "Guía paso a paso para configurar y utilizar los códigos QR en el hotel, mejorando la comunicación con los huéspedes"
 ---
 
+## Guía Visual
+
+<iframe
+  className="w-full aspect-video rounded-xl"
+  src="https://www.loom.com/embed/cd19b228d133400e8531ab876d950887"
+  title="Sistema de códigos QR en el hotel"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
+
 # Procedimiento Operativo Estándar para el Sistema de Códigos QR
 
 Este SOP describe los pasos necesarios para configurar y utilizar el sistema de códigos QR para reportar problemas en el hotel, mejorando la comunicación entre huéspedes y administración.
@@ -102,14 +113,3 @@ Capacite al personal sobre cómo manejar los reportes recibidos para mejorar la 
 - [ ] Límite de uso por hora configurado
 
 ---
-
-## Guía Visual
-
-<iframe
-  className="w-full aspect-video rounded-xl"
-  src="https://www.loom.com/embed/cd19b228d133400e8531ab876d950887"
-  title="Sistema de códigos QR en el hotel"
-  frameBorder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowFullScreen
-></iframe>

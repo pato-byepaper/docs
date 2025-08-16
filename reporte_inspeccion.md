@@ -3,6 +3,17 @@ title: "SOP · Procedimiento Operativo Estándar para el Seguimiento de Reportes
 description: "Guía paso a paso para el seguimiento y gestión eficiente de reportes."
 ---
 
+## Guía Visual
+
+<iframe
+  className="w-full aspect-video rounded-xl"
+  src="https://www.loom.com/embed/13bbd4b422704249a8668a7986aa6d33"
+  title="reporte_inspeccion"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
+
 ## Procedimiento Operativo Estándar para el Seguimiento de Reportes en el Hotel
 
 Este SOP describe el proceso para el seguimiento de reportes en el hotel, asegurando la eficiencia y la correcta asignación de tareas.
@@ -71,12 +82,3 @@ Este SOP describe el proceso para el seguimiento de reportes en el hotel, asegur
 - Utiliza notas claras y concisas para facilitar la comunicación con el técnico.
 - Revisa regularmente el estado de los reportes para mantener un seguimiento efectivo.
 
-
-<iframe
-  className="w-full aspect-video rounded-xl"
-  src="https://www.loom.com/embed/13bbd4b422704249a8668a7986aa6d33"
-  title="reporte_inspeccion"
-  frameBorder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowFullScreen
-></iframe>

@@ -3,6 +3,18 @@ title: "SOP · Procedimiento Operativo Estándar para Configuración de Mantenim
 description: "Guía paso a paso para configurar ciclos de mantenimiento y vida útil de activos en un hotel, asegurando un mantenimiento proactivo y eficiente"
 ---
 
+## Guía Visual
+
+<iframe
+  className="w-full aspect-video rounded-xl"
+  src="https://www.loom.com/embed/b00b985d63fd4f12a195387f4dc1e494"
+  title="Configuración de Mantenimiento Inteligente"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
+
+
 # Procedimiento Operativo Estándar para Configuración de Mantenimiento Inteligente
 
 Este SOP describe los pasos necesarios para configurar ciclos de mantenimiento y vida útil de los activos en un hotel, asegurando un mantenimiento proactivo y eficiente.
@@ -56,15 +68,3 @@ Utiliza la opción de mantenimiento programado para evitar problemas imprevistos
 </Tip>
 
 ---
-
-## Guía Visual
-
-<iframe
-  className="w-full aspect-video rounded-xl"
-  src="https://www.loom.com/embed/b00b985d63fd4f12a195387f4dc1e494"
-  title="Configuración de Mantenimiento Inteligente"
-  frameBorder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowFullScreen
-></iframe>
-

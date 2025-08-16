@@ -3,6 +3,19 @@ title: "SOP · Procedimiento Operativo Estándar para el Uso del Mapa del Hotel"
 description: "Guía paso a paso para usar el mapa del hotel como herramienta de gestión operativa."
 ---
 
+## Guía Visual
+
+
+<iframe
+  className="w-full aspect-video rounded-xl"
+  src="https://www.loom.com/embed/ce42986f0ad54e62b32bba11d454a63e"
+  title="uso_mapa_hotel"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
+
+
 ## Procedimiento Operativo Estándar para el Uso del Mapa del Hotel
 
 Este SOP proporciona pasos claros para utilizar el mapa del hotel como herramienta de gestión operativa.
@@ -63,12 +76,3 @@ Este SOP proporciona pasos claros para utilizar el mapa del hotel como herramien
 
 - Aprende a interpretar los colores y símbolos rápidamente para tomar decisiones más ágiles.
 - Programa revisiones regulares para detectar tendencias y mantener un control preventivo sobre la operación del hotel.
-
-<iframe
-  className="w-full aspect-video rounded-xl"
-  src="https://www.loom.com/embed/ce42986f0ad54e62b32bba11d454a63e"
-  title="uso_mapa_hotel"
-  frameBorder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowFullScreen
-></iframe>

@@ -3,6 +3,17 @@ title: "SOP · Camaristas en NEIO"
 description: "Guía paso a paso para camaristas en el uso del sistema de gestión de habitaciones"
 ---
 
+## Guía Visual
+
+<iframe
+  className="w-full aspect-video rounded-xl"
+  src="https://www.loom.com/embed/202d0e62331d4a9395ed4bf2d9aa53e7"
+  title="Uso del sistema de gestión para camaristas"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
+
 # Procedimiento Operativo Estándar para Camaristas
 
 Este SOP proporciona una guía clara para que los camaristas utilicen el sistema de gestión de habitaciones de forma eficiente, asegurando la calidad y el confort para los huéspedes.
@@ -89,14 +100,3 @@ Usa la búsqueda por número de habitación para ahorrar tiempo.
 - [ ] Incidencias cerradas y verificadas
 
 ---
-
-## Guía Visual
-
-<iframe
-  className="w-full aspect-video rounded-xl"
-  src="https://www.loom.com/embed/202d0e62331d4a9395ed4bf2d9aa53e7"
-  title="Uso del sistema de gestión para camaristas"
-  frameBorder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowFullScreen
-></iframe>

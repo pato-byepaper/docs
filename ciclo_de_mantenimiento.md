@@ -3,6 +3,17 @@ title: "SOP · Procedimiento Operativo Estándar para el Sistema de Gestión de 
 description: "Guía para utilizar el sistema de gestión de tareas y optimizar el ciclo de mantenimiento en el hotel"
 ---
 
+## Guía Visual
+
+<iframe
+  className="w-full aspect-video rounded-xl"
+  src="https://www.loom.com/embed/c91a342fd4af4b69bad1c87abc421b0f"
+  title="Sistema de gestión de tareas"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
+
 # Procedimiento Operativo Estándar para el Sistema de Gestión de Tareas
 
 Este SOP proporciona una guía clara para el uso del sistema de gestión de tareas, asegurando que los técnicos y miembros del equipo puedan organizar, ejecutar y documentar el ciclo de mantenimiento de manera eficiente.
@@ -60,14 +71,3 @@ Revisa el sistema diariamente para mantenerte al día con las tareas pendientes.
 </Tip>
 
 ---
-
-## Guía Visual
-
-<iframe
-  className="w-full aspect-video rounded-xl"
-  src="https://www.loom.com/embed/c91a342fd4af4b69bad1c87abc421b0f"
-  title="Sistema de gestión de tareas"
-  frameBorder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowFullScreen
-></iframe>

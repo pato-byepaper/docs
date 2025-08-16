@@ -3,6 +3,17 @@ title: "SOP · Procedimiento Operativo Estándar para el Seguimiento de Inspecci
 description: "Guía paso a paso para el seguimiento y gestión eficiente de inspecciones."
 ---
 
+## Guía Visual
+
+<iframe
+  className="w-full aspect-video rounded-xl"
+  src="https://www.loom.com/embed/4550c18ad110436e9d30119d53bca717"
+  title="seguimiento_inspecciones"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
+
 ## Procedimiento Operativo Estándar para el Seguimiento de Inspecciones
 
 Este SOP describe el proceso para realizar el seguimiento de inspecciones en el hotel, asegurando que se mantengan los estándares de calidad y satisfacción del huésped.
@@ -73,12 +84,4 @@ Este SOP describe el proceso para realizar el seguimiento de inspecciones en el 
 - Utiliza recordatorios o alertas dentro del sistema para no dejar pendientes inspecciones importantes.  
 - Organiza las inspecciones por áreas o pisos para ahorrar tiempo durante la evaluación.
 
-<iframe
-  className="w-full aspect-video rounded-xl"
-  src="https://www.loom.com/embed/4550c18ad110436e9d30119d53bca717"
-  title="seguimiento_inspecciones"
-  frameBorder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowFullScreen
-></iframe>
 

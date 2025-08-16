@@ -3,6 +3,17 @@ title: "SOP · Procedimiento Operativo Estándar para la Creación de Reportes e
 description: "Guía paso a paso para crear reportes en la plataforma y asegurar una comunicación efectiva en el hotel"
 ---
 
+## Guía Visual
+
+<iframe
+  className="w-full aspect-video rounded-xl"
+  src="https://www.loom.com/embed/604033e1814c45f88a4c7df4e1558d22"
+  title="Creación de reportes en la plataforma"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
+
 # Procedimiento Operativo Estándar para la Creación de Reportes en la Plataforma
 
 Este SOP describe el proceso para crear reportes en la plataforma, asegurando una comunicación efectiva y un servicio de calidad en el hotel.
@@ -108,18 +119,3 @@ Consulta reportes anteriores como referencia para mejorar la precisión en tus d
 - [ ] Reporte enviado y confirmado en el sistema
 
 ---
-
-## Guía Visual
-
-<iframe
-  className="w-full aspect-video rounded-xl"
-  src="https://www.loom.com/embed/604033e1814c45f88a4c7df4e1558d22"
-  title="Creación de reportes en la plataforma"
-  frameBorder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowFullScreen
-></iframe>
-
-
-
-

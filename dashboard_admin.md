@@ -3,6 +3,18 @@ title: "SOP · Procedimiento Operativo Estándar para la Gestión del Panel de A
 description: "Guía paso a paso para usar el panel de administración del hotel como herramienta de gestión operativa."
 ---
 
+## Guía Visual
+
+<iframe
+  className="w-full aspect-video rounded-xl"
+  src="https://www.loom.com/embed/a82f1889da2d4d82adc7d15a72242932"
+  title="panel_administracion"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
+
+
 ## Procedimiento Operativo Estándar para la Gestión del Panel de Administración del Hotel
 
 ### Objective
@@ -65,11 +77,3 @@ Este SOP proporciona pasos claros para utilizar el panel de administración del 
 - Aprende los atajos y funciones rápidas del panel para moverte con agilidad.
 - Realiza revisiones periódicas de métricas y reportes para mantener un control proactivo del equipo.
 
-<iframe
-  className="w-full aspect-video rounded-xl"
-  src="https://www.loom.com/embed/a82f1889da2d4d82adc7d15a72242932"
-  title="panel_administracion"
-  frameBorder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowFullScreen
-></iframe>
