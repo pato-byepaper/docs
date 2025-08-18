@@ -25,7 +25,7 @@ Antes de iniciar, asegúrate de contar con tus credenciales activas y acceso al 
 ## Pasos Clave
 
 <Steps titleSize="h3">
-  <Step title="Paso 1 · Acceso a Inspecciones" icon="login" iconType="solid" stepNumber={1}>
+  <Step title="Paso 1 · Acceso a Inspecciones" icon="clipboard-check" iconType="solid" stepNumber={1}>
     Los técnicos deben ingresar al módulo de inspecciones desde la aplicación.
     <ul>
       <li>Completa las evaluaciones asignadas.</li>
@@ -33,7 +33,7 @@ Antes de iniciar, asegúrate de contar con tus credenciales activas y acceso al 
     </ul>
   </Step>
 
-  <Step title="Paso 2 · Selección de Inspección" icon="search" iconType="solid" stepNumber={2}>
+  <Step title="Paso 2 · Selección de Inspección" icon="clipboard-check" iconType="solid" stepNumber={2}>
     Una vez dentro, selecciona la inspección que tengas asignada.
     <ul>
       <li>Presiona <b>Continuar Inspección</b> para avanzar.</li>
@@ -47,7 +47,7 @@ Antes de iniciar, asegúrate de contar con tus credenciales activas y acceso al 
     </ul>
   </Step>
 
-  <Step title="Paso 4 · Evaluación de Elementos" icon="check-circle" iconType="solid" stepNumber={4}>
+  <Step title="Paso 4 · Evaluación de Elementos" icon="circle-check" iconType="solid" stepNumber={4}>
     El sistema te guiará espacio por espacio con un asistente intuitivo.
     <ul>
       <li>Marca cada elemento con uno de los siguientes estados:</li>
@@ -64,7 +64,7 @@ Antes de iniciar, asegúrate de contar con tus credenciales activas y acceso al 
     Una vez evaluados todos los elementos, presiona <b>Terminar Inspección</b>.
   </Step>
 
-  <Step title="Paso 6 · Manejo de Fallas" icon="alert-triangle" iconType="solid" stepNumber={6}>
+  <Step title="Paso 6 · Manejo de Fallas" icon="triangle-alert" iconType="solid" stepNumber={6}>
     Si marcas un elemento como <b>con falla</b>:
     <ul>
       <li>El sistema reduce automáticamente el porcentaje de salud del elemento y del espacio.</li>
