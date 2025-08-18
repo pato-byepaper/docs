@@ -1,75 +1,98 @@
 ---
-title: "SOP · Procedimiento Operativo Estándar para el Seguimiento de Inspecciones"
-description: "Guía paso a paso para realizar y documentar inspecciones en el hotel"
+title: "SOP · Procedimiento Operativo Estándar para la Gestión de Tareas"
+description: "Guía paso a paso para gestionar eficientemente las tareas de mantenimiento en el hotel"
 ---
 
 ## Guía Visual
 
 <iframe
   className="w-full aspect-video rounded-xl"
-  src="https://www.loom.com/embed/cfa33fd310994df98caf76ee4684d1db"
-  title="Seguimiento de inspecciones"
+  src="https://www.loom.com/embed/806db2bc04db477aa109035ea2ebb154"
+  title="Gestión de tareas en la plataforma"
   frameBorder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowFullScreen
 ></iframe>
 
-# Procedimiento Operativo Estándar para el Seguimiento de Inspecciones
+# Procedimiento Operativo Estándar para la Gestión de Tareas
 
-Este SOP describe el proceso de seguimiento de inspecciones para garantizar la calidad y satisfacción en el hotel.
+Este SOP proporciona un conjunto de pasos claros para que los técnicos y miembros del equipo gestionen eficientemente las tareas de mantenimiento en el hotel.
 
 <Note>
-Antes de iniciar, asegúrate de tener inspecciones asignadas en tu dispositivo y contar con conexión estable.
+Antes de iniciar, asegúrate de contar con acceso al sistema de gestión de tareas.
 </Note>
 
 ## Pasos Clave
 
 <Steps titleSize="h3">
-  <Step title="Paso 1 · Acceso a Inspecciones" icon="eye" iconType="solid" stepNumber={1}>
-    Ingresa a la sección <strong>Inspecciones</strong> desde tu dispositivo móvil.
+  <Step title="Paso 1 · Acceso al Sistema de Gestión de Tareas" icon="login" iconType="solid" stepNumber={1}>
+    Ingresa al sistema de gestión de tareas desde tu dispositivo.
     <ul>
-      <li>Verifica que tengas evaluaciones asignadas para hoy.</li>
+      <li>El sistema está diseñado para organizar, ejecutar y documentar el trabajo de mantenimiento.</li>
     </ul>
   </Step>
 
-  <Step title="Paso 2 · Seleccionar Inspección" icon="clipboard-list" iconType="solid" stepNumber={2}>
-    Elige la inspección asignada y pulsa <strong>Continuar inspección</strong>.
-  </Step>
-
-  <Step title="Paso 3 · Modo por Espacios" icon="plus" iconType="solid" stepNumber={3}>
-    Cambia a <strong>Modo por espacios</strong> para resolver la inspección de forma ordenada.
-  </Step>
-
-  <Step title="Paso 4 · Evaluación de Elementos" icon="calendar" iconType="solid" stepNumber={4}>
-    Recorre cada espacio con el asistente:
+  <Step title="Paso 2 · Visualización de Tareas Asignadas" icon="clipboard-list" iconType="solid" stepNumber={2}>
+    Haz clic en el botón <b>Crear</b> para acceder a tus tareas asignadas.
     <ul>
-      <li>Marca cada ítem como <em>Correcto</em>, <em>Con falla</em> o <em>No aplica</em>.</li>
-      <li>Agrega comentarios y fotos cuando sea necesario.</li>
+      <li>Cada tarea mostrará su estado: borrador, en progreso, completada o finalizada.</li>
     </ul>
   </Step>
 
-  <Step title="Paso 5 · Documentación" icon="pencil" iconType="solid" stepNumber={5}>
-    Registra evidencia clara:
+  <Step title="Paso 3 · Marcado de Tareas" icon="circle-check" iconType="solid" stepNumber={3}>
+    Para actualizar el progreso de una tarea:
     <ul>
-      <li>Notas puntuales sobre la condición encontrada.</li>
-      <li>Fotografías del detalle observado.</li>
+      <li>Usa <b>Marcar como</b> para indicar avances.</li>
+      <li>Selecciona <b>Marcar como finalizada</b> cuando la tarea esté completa.</li>
     </ul>
   </Step>
 
-  <Step title="Paso 6 · Finalizar Inspección" icon="flag" iconType="solid" stepNumber={6}>
-    Cuando termines todos los elementos, pulsa <strong>Terminar inspección</strong>.
+  <Step title="Paso 4 · Actualización del Estado de las Tareas" icon="arrow-path" iconType="solid" stepNumber={4}>
+    Actualiza el estado de las tareas paso a paso:
+    <ul>
+      <li>Borrador → En progreso → Completada.</li>
+    </ul>
   </Step>
 
-  <Step title="Paso 7 · Manejo de Fallas" icon="book-open" iconType="solid" stepNumber={7}>
-    Al marcar una <em>Falla</em>, el sistema ajusta el porcentaje de salud del elemento y del espacio, generando alertas críticas en el dashboard.
+  <Step title="Paso 5 · Documentación del Trabajo Realizado" icon="pencil" iconType="solid" stepNumber={5}>
+    Siempre registra el trabajo realizado:
+    <ul>
+      <li>Notas detalladas.</li>
+      <li>Fotografías del resultado.</li>
+    </ul>
   </Step>
 
-  <Step title="Paso 8 · Crear Tareas" icon="clipboard-list" iconType="solid" stepNumber={8}>
-    Desde los detalles del elemento con falla, selecciona <strong>Crear tarea</strong> para generar la orden de trabajo correspondiente.
+  <Step title="Paso 6 · Documentación para Reparaciones" icon="wrench" iconType="solid" stepNumber={6}>
+    En reparaciones:
+    <ul>
+      <li>Documenta los materiales utilizados.</li>
+      <li>Describe el procedimiento y añade fotos del antes y después.</li>
+    </ul>
   </Step>
 
-  <Step title="Paso 9 · Impacto y Seguimiento" icon="chart-bar" iconType="solid" stepNumber={9}>
-    Da seguimiento en el dashboard para verificar la atención de las tareas y la recuperación de salud del espacio.
+  <Step title="Paso 7 · Documentación para Reemplazos" icon="archive" iconType="solid" stepNumber={7}>
+    En casos de reemplazo:
+    <ul>
+      <li>Registra la garantía del trabajo realizado.</li>
+      <li>Documenta las especificaciones del elemento retirado y del nuevo instalado.</li>
+      <li>Incluye fotos de apoyo.</li>
+    </ul>
+  </Step>
+
+  <Step title="Paso 8 · Registro de Fechas y Condiciones" icon="calendar" iconType="solid" stepNumber={8}>
+    Añade la información clave:
+    <ul>
+      <li>Fechas de intervención.</li>
+      <li>Condiciones de los elementos reemplazados.</li>
+    </ul>
+  </Step>
+
+  <Step title="Paso 9 · Mejora del Rendimiento" icon="trending_up" iconType="solid" stepNumber={9}>
+    Una gestión eficiente de tareas:
+    <ul>
+      <li>Mejora tu rendimiento individual.</li>
+      <li>Optimiza las operaciones generales del hotel.</li>
+    </ul>
   </Step>
 </Steps>
 
@@ -78,11 +101,11 @@ Antes de iniciar, asegúrate de tener inspecciones asignadas en tu dispositivo y
 ## Notas de Precaución
 
 <Warning>
-Confirma cada selección (<em>Correcto</em>, <em>Falla</em>, <em>No aplica</em>) antes de avanzar, para evitar reprocesos.
+Documenta cada tarea de manera precisa para evitar confusiones.
 </Warning>
 
 <Warning>
-Incluye fotos cuando existan hallazgos relevantes; ayudan a priorizar y a dar contexto al equipo técnico.
+No olvides adjuntar fotografías, ya que son cruciales para el seguimiento y control de calidad.
 </Warning>
 
 ---
@@ -90,20 +113,23 @@ Incluye fotos cuando existan hallazgos relevantes; ayudan a priorizar y a dar co
 ## Consejos de Eficiencia
 
 <Tip>
-Usa el <strong>Modo por espacios</strong> para avanzar de forma consistente y no omitir ítems.
+Revisa regularmente el estado de tus tareas para mantenerte al día.
 </Tip>
 
 <Tip>
-Redacta notas breves y estandarizadas (qué, dónde, severidad) para agilizar la creación de tareas.
+Usa plantillas para documentar reparaciones y reemplazos y ahorrar tiempo.
 </Tip>
 
 ---
 
 ## Lista de Verificación (Checklist)
 
-- [ ] Inspección asignada localizada  
-- [ ] Modo por espacios activo  
-- [ ] Ítems evaluados (Correcto / Falla / No aplica)  
-- [ ] Evidencia (fotos y notas) registrada  
-- [ ] Inspección finalizada  
-- [ ] Tareas creadas para fallas detectadas
+- [ ] Acceso al sistema de gestión de tareas  
+- [ ] Visualización de tareas asignadas  
+- [ ] Estado actualizado correctamente  
+- [ ] Notas detalladas registradas  
+- [ ] Fotografías adjuntadas  
+- [ ] Reparaciones documentadas con materiales y procedimiento  
+- [ ] Reemplazos documentados con garantías y especificaciones  
+- [ ] Fechas y condiciones registradas  
+- [ ] Tarea marcada como finalizada  
