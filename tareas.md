@@ -25,7 +25,7 @@ Antes de iniciar, asegúrate de contar con acceso al sistema de gestión de tare
 ## Pasos Clave
 
 <Steps titleSize="h3">
-  <Step title="Paso 1 · Acceso al Sistema de Gestión de Tareas" icon="login" iconType="solid" stepNumber={1}>
+  <Step title="Paso 1 · Acceso al Sistema de Gestión de Tareas" icon="key" iconType="solid" stepNumber={1}>
     Ingresa al sistema de gestión de tareas desde tu dispositivo.
     <ul>
       <li>El sistema está diseñado para organizar, ejecutar y documentar el trabajo de mantenimiento.</li>
@@ -47,7 +47,7 @@ Antes de iniciar, asegúrate de contar con acceso al sistema de gestión de tare
     </ul>
   </Step>
 
-  <Step title="Paso 4 · Actualización del Estado de las Tareas" icon="refresh" iconType="solid" stepNumber={4}>
+  <Step title="Paso 4 · Actualización del Estado de las Tareas" icon="arrow-path" iconType="solid" stepNumber={4}>
     Actualiza el estado de las tareas paso a paso:
     <ul>
       <li>Borrador → En progreso → Completada.</li>
@@ -70,7 +70,7 @@ Antes de iniciar, asegúrate de contar con acceso al sistema de gestión de tare
     </ul>
   </Step>
 
-  <Step title="Paso 7 · Documentación para Reemplazos" icon="archive" iconType="solid" stepNumber={7}>
+  <Step title="Paso 7 · Documentación para Reemplazos" icon="cube" iconType="solid" stepNumber={7}>
     En casos de reemplazo:
     <ul>
       <li>Registra la garantía del trabajo realizado.</li>
@@ -87,7 +87,7 @@ Antes de iniciar, asegúrate de contar con acceso al sistema de gestión de tare
     </ul>
   </Step>
 
-  <Step title="Paso 9 · Mejora del Rendimiento" icon="trending-up" iconType="solid" stepNumber={9}>
+  <Step title="Paso 9 · Mejora del Rendimiento" icon="chart-bar" iconType="solid" stepNumber={9}>
     Una gestión eficiente de tareas:
     <ul>
       <li>Mejora tu rendimiento individual.</li>
