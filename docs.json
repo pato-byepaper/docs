@@ -54,10 +54,7 @@
           {
             "group": "FAQs",
             "pages": [
-              {
-                "group": "FAQs/Preguntas Frecuentes",
-                "pages": []
-              }
+              "FAQs/Preguntas Frecuentes"
             ]
           }
         ]
