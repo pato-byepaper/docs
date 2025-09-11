@@ -37,6 +37,15 @@
             ]
           },
           {
+            "group": "FAQs",
+            "pages": [
+              {
+                "group": "Preguntas Frecuentes",
+                "pages": []
+              }
+            ]
+          },
+          {
             "group": "Configuracion",
             "pages": [
               "essentials/settings",
@@ -73,7 +82,6 @@
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
-
   "contextual": {
     "options": [
      "copy",
@@ -85,5 +93,5 @@
      "cursor",
      "vscode"
    ]
-}
+  }
 }
