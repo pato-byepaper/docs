@@ -36,16 +36,7 @@
               "tareas"
             ]
           },
-          {
-            "group": "FAQs",
-            "pages": [
-              {
-                "group": "Preguntas Frecuentes",
-                "pages": []
-              }
-            ]
-          },
-          {
+        {
             "group": "Configuracion",
             "pages": [
               "essentials/settings",
@@ -58,6 +49,15 @@
               "ai-tools/cursor",
               "ai-tools/claude-code",
               "ai-tools/windsurf"
+            ]
+          },
+          {
+            "group": "FAQs",
+            "pages": [
+              {
+                "group": "FAQs/Preguntas Frecuentes",
+                "pages": []
+              }
             ]
           }
         ]
@@ -82,6 +82,7 @@
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
+
   "contextual": {
     "options": [
      "copy",
@@ -93,5 +94,5 @@
      "cursor",
      "vscode"
    ]
-  }
+}
 }
