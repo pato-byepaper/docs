@@ -33,7 +33,8 @@
               "sistema_QR",
               "Garantias",
               "afecta_inspeccion",
-              "tareas"
+              "tareas",
+              "health-calculation"
             ]
           },
         {
@@ -47,7 +48,10 @@
             "group": "AI tools",
             "pages": [
               "ai-tools/ai-reportes",
-              "ai-tools/ai-research"
+              "ai-tools/ai-research",
+              "ai-tools/ai-inspecciones",
+              "ai-tools/ai-textos",
+              "ai-tools/ai-notificaciones"
             ]
           },
           {
