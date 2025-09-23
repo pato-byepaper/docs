@@ -46,9 +46,8 @@
           {
             "group": "AI tools",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "ai-tools/ai-reportes",
+              "ai-tools/ai-research"
             ]
           },
           {
