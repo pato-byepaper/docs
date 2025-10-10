@@ -10,9 +10,109 @@ Este SOP describe cómo se calcula, interpreta y mejora el **Puntaje de Salud de
 <Note>
 Antes de iniciar, asegúrate de tener acceso al módulo de mantenimiento, reportes e inspecciones del sistema del hotel.
 </Note>
+---
+### Initial Setup and Baseline Health
+
+When a hotel is first set up in the system, it begins with a baseline health score of **85%**. This starting point accounts for:
+
+- **No Inspection History**: The system assumes proper initial conditions
+- **No Maintenance Backlog**: No existing maintenance issues are assumed
+- **No Active Reports**: The system starts with a clean slate for reporting
+
+**Important Notes:**
+- This baseline score will adjust as actual data is collected
+- The score may decrease if initial inspections reveal issues
+- Proactive maintenance and timely issue resolution can help maintain or improve the score
+- The system will generate its first set of maintenance schedules and inspection cycles based on this baseline
+
+The baseline of 85% represents a "Good" starting point, encouraging property managers to:
+1. Conduct initial inspections promptly
+2. Address any immediate issues
+3. Establish regular maintenance routines
+4. Build a history of property conditions
+---
+## Health Calculation by Level
+
+### 1. Element Level
+**Calculation:**
+- Base score: 100 points
+- Penalties applied based on:
+  - Element condition (e.g., "fuera de servicio" = -40, "requiere mantenimiento" = -25)
+  - Active reports (critical issues = -30, others = -15)
+  - Checklist failures (base penalty = 20 per failure)
+  - Maintenance overdue (-2 points per day overdue)
+
+**Impacting Factors:**
+- Element status/condition
+- Associated reports and their priority
+- Maintenance history and due dates
+- Checklist item results and follow-up status
+
+### 2. Space Level
+**Calculation:**
+- Weighted average of all elements in the space (30% weight)
+- Maintenance score based on inspection recency (25% weight)
+- Report penalties (35% weight)
+- Checklist impact (10% weight)
+
+**Impacting Factors:**
+- Number and severity of active reports
+- Inspection status and recency
+- Element health scores within the space
+- Checklist compliance
+- Follow-up item resolution time
+
+### 3. Floor Level
+**Calculation:**
+- Average of all space health scores on the floor
+- Additional consideration for floor-specific issues
+- Weighted by space importance/function
+
+**Impacting Factors:**
+- Health of individual spaces
+- Common area conditions
+- Floor-specific maintenance needs
+- Traffic/usage patterns
+
+### 4. Building Level
+**Calculation:**
+- Weighted average of all floors in the building
+- Building-wide systems impact (HVAC, electrical, plumbing)
+- Common area conditions
+
+**Impacting Factors:**
+- Floor health scores
+- Building systems status
+- Shared facility conditions
+- Building age and maintenance history
+
+### 5. Hotel Level
+**Calculation Methods:**
+1. **Space-Weighted (Default):** 
+   - Calculates health for each space
+   - Averages all space health scores
+   - Best for properties with uniform space importance
+
+2. **Floor-Weighted:**
+   - Aggregates spaces by floor first
+   - Averages floor health scores
+   - Best for multi-building properties
+
+**Impacting Factors:**
+- Overall maintenance backlog
+- Critical infrastructure status
+- Guest-impacting issues
+- Inspection compliance
+- Staff responsiveness to issues
+- Historical maintenance patterns
+
+### Cross-Level Considerations:
+- **Critical Issues:** Have cascading impact across multiple levels
+- **Common Areas:** Affect both their specific level and the overall property
+- **Guest-Facing Areas:** May be weighted more heavily in calculations
+- **High-Traffic Areas:** May have more frequent inspections and stricter standards
 
 ---
-
 ## Pasos Clave
 
 <Steps titleSize="h3">
