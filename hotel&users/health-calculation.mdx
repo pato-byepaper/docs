@@ -11,107 +11,123 @@ Este SOP describe cómo se calcula, interpreta y mejora el **Puntaje de Salud de
 Antes de iniciar, asegúrate de tener acceso al módulo de mantenimiento, reportes e inspecciones del sistema del hotel.
 </Note>
 ---
-### Initial Setup and Baseline Health
+## Configuración Inicial y Línea Base de Salud
 
-When a hotel is first set up in the system, it begins with a baseline health score of **85%**. This starting point accounts for:
+Cuando un hotel se integra por primera vez al sistema, comienza con una puntuación de salud base de **85%**, lo que representa un estado "Bueno". Este punto de partida está diseñado para:
 
-- **No Inspection History**: The system assumes proper initial conditions
-- **No Maintenance Backlog**: No existing maintenance issues are assumed
-- **No Active Reports**: The system starts with a clean slate for reporting
+- Ofrecer un inicio realista pero optimista para nuevas propiedades
+- Considerar la ausencia de datos históricos
+- Fomentar el mantenimiento proactivo y las inspecciones
 
-**Important Notes:**
-- This baseline score will adjust as actual data is collected
-- The score may decrease if initial inspections reveal issues
-- Proactive maintenance and timely issue resolution can help maintain or improve the score
-- The system will generate its first set of maintenance schedules and inspection cycles based on this baseline
+### Cómo se Aplica la Línea Base:
 
-The baseline of 85% represents a "Good" starting point, encouraging property managers to:
-1. Conduct initial inspections promptly
-2. Address any immediate issues
-3. Establish regular maintenance routines
-4. Build a history of property conditions
+1. **Métricas Iniciales de Salud:**
+   - Puntuación General: 85/100
+   - Estado de Salud: "Bueno"
+   - Puntuación Proyectada: 85 (igual a la puntuación actual)
+   - Todas las demás métricas comienzan en cero
+
+2. **Impacto de la Recolección de Datos:**
+   - Primeros 30 días: El sistema recopila datos de referencia
+   - Después de 30 días: La puntuación comienza a ajustarse según las condiciones reales
+   - Los problemas críticos pueden afectar la puntuación inmediatamente
+
+3. **Recomendaciones para Hoteles Nuevos:**
+   - Completar las inspecciones iniciales durante la primera semana
+   - Atender cualquier problema preexistente de inmediato
+   - Establecer horarios regulares de mantenimiento
+   - Documentar todas las actividades de mantenimiento
+
+### Transición al Sistema de Puntuación Operativo:
+
+| Período      | Comportamiento de Puntuación | Acciones Recomendadas |
+|--------------|-----------------------------|----------------------|
+| Días 1-7     | Puntuación base (85%)       | Inspecciones iniciales, configuración del sistema |
+| Semanas 2-4  | Transición gradual          | Atender hallazgos iniciales, establecer rutinas |
+| Mes 2+       | Totalmente operativo        | Mantenimiento regular, monitoreo continuo |
+
+Este enfoque de línea base garantiza que las nuevas propiedades comiencen con una evaluación justa mientras el sistema aprende las condiciones específicas de la propiedad y sus patrones de mantenimiento.
 ---
-## Health Calculation by Level
+## Cálculo de Salud por Nivel
 
-### 1. Element Level
-**Calculation:**
-- Base score: 100 points
-- Penalties applied based on:
-  - Element condition (e.g., "fuera de servicio" = -40, "requiere mantenimiento" = -25)
-  - Active reports (critical issues = -30, others = -15)
-  - Checklist failures (base penalty = 20 per failure)
-  - Maintenance overdue (-2 points per day overdue)
+### 1. Nivel de Elemento
+**Cálculo:**
+- Puntuación base: 100 puntos
+- Se aplican penalizaciones según:
+  - Condición del elemento (ej: "fuera de servicio" = -40, "requiere mantenimiento" = -25)
+  - Reportes activos (problemas críticos = -30, otros = -15)
+  - Fallas en lista de verificación (penalización base = 20 por falla)
+  - Mantenimiento atrasado (-2 puntos por día de atraso)
 
-**Impacting Factors:**
-- Element status/condition
-- Associated reports and their priority
-- Maintenance history and due dates
-- Checklist item results and follow-up status
+**Factores que afectan:**
+- Estado/condición del elemento
+- Reportes asociados y su prioridad
+- Historial de mantenimiento y fechas de vencimiento
+- Resultados de la lista de verificación y estado de seguimiento
 
-### 2. Space Level
-**Calculation:**
-- Weighted average of all elements in the space (30% weight)
-- Maintenance score based on inspection recency (25% weight)
-- Report penalties (35% weight)
-- Checklist impact (10% weight)
+### 2. Nivel de Espacio
+**Cálculo:**
+- Promedio ponderado de todos los elementos en el espacio (30% de peso)
+- Puntuación de mantenimiento basada en la antigüedad de la inspección (25% de peso)
+- Penalizaciones por reportes (35% de peso)
+- Impacto de la lista de verificación (10% de peso)
 
-**Impacting Factors:**
-- Number and severity of active reports
-- Inspection status and recency
-- Element health scores within the space
-- Checklist compliance
-- Follow-up item resolution time
+**Factores que afectan:**
+- Número y gravedad de reportes activos
+- Estado y antigüedad de las inspecciones
+- Puntuaciones de salud de los elementos dentro del espacio
+- Cumplimiento de la lista de verificación
+- Tiempo de resolución de elementos de seguimiento
 
-### 3. Floor Level
-**Calculation:**
-- Average of all space health scores on the floor
-- Additional consideration for floor-specific issues
-- Weighted by space importance/function
+### 3. Nivel de Piso
+**Cálculo:**
+- Promedio de todas las puntuaciones de salud de los espacios en el piso
+- Consideración adicional para problemas específicos del piso
+- Ponderado por importancia/función del espacio
 
-**Impacting Factors:**
-- Health of individual spaces
-- Common area conditions
-- Floor-specific maintenance needs
-- Traffic/usage patterns
+**Factores que afectan:**
+- Salud de los espacios individuales
+- Condiciones de las áreas comunes
+- Necesidades de mantenimiento específicas del piso
+- Patrones de tráfico/uso
 
-### 4. Building Level
-**Calculation:**
-- Weighted average of all floors in the building
-- Building-wide systems impact (HVAC, electrical, plumbing)
-- Common area conditions
+### 4. Nivel de Edificio
+**Cálculo:**
+- Promedio ponderado de todos los pisos en el edificio
+- Impacto de los sistemas del edificio (HVAC, eléctrico, plomería)
+- Condiciones de las instalaciones comunes
 
-**Impacting Factors:**
-- Floor health scores
-- Building systems status
-- Shared facility conditions
-- Building age and maintenance history
+**Factores que afectan:**
+- Puntuaciones de salud de los pisos
+- Estado de los sistemas del edificio
+- Condiciones de las instalaciones compartidas
+- Antigüedad e historial de mantenimiento del edificio
 
-### 5. Hotel Level
-**Calculation Methods:**
-1. **Space-Weighted (Default):** 
-   - Calculates health for each space
-   - Averages all space health scores
-   - Best for properties with uniform space importance
+### 5. Nivel de Hotel
+**Métodos de Cálculo:**
+1. **Ponderado por Espacio (Predeterminado):** 
+   - Calcula la salud para cada espacio
+   - Promedia todas las puntuaciones de salud de los espacios
+   - Mejor para propiedades con importancia uniforme de espacios
 
-2. **Floor-Weighted:**
-   - Aggregates spaces by floor first
-   - Averages floor health scores
-   - Best for multi-building properties
+2. **Ponderado por Piso:**
+   - Agrega espacios por piso primero
+   - Promedia las puntuaciones de salud de los pisos
+   - Mejor para propiedades con múltiples edificios
 
-**Impacting Factors:**
-- Overall maintenance backlog
-- Critical infrastructure status
-- Guest-impacting issues
-- Inspection compliance
-- Staff responsiveness to issues
-- Historical maintenance patterns
+**Factores que afectan:**
+- Acumulación general de mantenimiento
+- Estado de la infraestructura crítica
+- Problemas que afectan a los huéspedes
+- Cumplimiento de inspecciones
+- Capacidad de respuesta del personal a problemas
+- Patrones históricos de mantenimiento
 
-### Cross-Level Considerations:
-- **Critical Issues:** Have cascading impact across multiple levels
-- **Common Areas:** Affect both their specific level and the overall property
-- **Guest-Facing Areas:** May be weighted more heavily in calculations
-- **High-Traffic Areas:** May have more frequent inspections and stricter standards
-
+### Consideraciones entre Niveles:
+- **Problemas Críticos:** Tienen impacto en cascada en múltiples niveles
+- **Áreas Comunes:** Afectan tanto a su nivel específico como a toda la propiedad
+- **Áreas de Atención a Huéspedes:** Pueden tener mayor peso en los cálculos
+- **Áreas de Alto Tráfico:** Pueden requerir inspecciones más frecuentes y estándares más estrictos
 ---
 ## Pasos Clave
 
