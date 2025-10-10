@@ -56,11 +56,11 @@ Sigue nuestra guía de configuración paso a paso que incluye la creación de la
 1. Envío de la liga de pago: Se enviará un enlace de pago a través de Stripe, el cual incluirá los descuentos aplicados y el IVA correspondiente
 2. Visualización mensual del cobro: Cada mes, se mostrará la cantidad de habitaciones o el metraje por el cual se está cobrando. Esta información estará disponible después del día 10 de cada mes.
 3. Cobro automático con tarjeta de crédito: Una vez que ingrese su tarjeta de crédito (TC), el cobro se realizará automáticamente sobre el mes vencido. Si el primer intento de cobro falla, se realizarán dos intentos adicionales.
-4. Periodo de gracia: Si después de tres intentos no se realiza el cobro, se le da un plazo de 15 días al usuario para realizar el pago antes de bloquear el acceso a la plataforma.
-5. Eliminación de datos después de 90 días: Si el pago no se recibe dentro de los 90 días posteriores al primer intento de cobro, la información del usuario será eliminada. Si requiere hacer cambios, debe contactarnos a contacto@neio.io.
+4. Periodo de gracia: Si después de tres intentos no se realiza el cobro, se le da un plazo de 15 días para realizar el pago antes de bloquear el acceso a la plataforma.
+5. Eliminación de datos después de 90 días: Si el pago no se recibe dentro de los 90 días posteriores al primer intento de cobro, su información será eliminada. Si requiere hacer cambios, debe contactarnos a contacto@neio.io.
 
 ### ¿Dónde puedo ver mi factura?
-1. Solicitud de datos fiscales: Al inicio, se solicitarán los datos fiscales y el CSF (Código de Servicio Fiscal) del usuario para poder timbrar la factura.
+1. Solicitud de datos fiscales: Al inicio, se solicitarán sus datos fiscales y el CSF (Código de Servicio Fiscal) para poder timbrar la factura.
 2. Timbrado de la factura: Una vez realizado el pago, se timbrará la factura en el mismo mes en curso.
 3. Envío de la factura: La factura será enviada al correo electrónico proporcionado por la organización.
 4. Modificación de la factura: Si desea modificar la factura, deberá enviar un correo a facturacion@neio.io.
