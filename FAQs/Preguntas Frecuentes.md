@@ -52,7 +52,7 @@ Sigue nuestra guía de configuración paso a paso que incluye la creación de la
 
 ## Facturación y Pagos
 
-### ¿Cómo es el método mi método de pago?
+### ¿Cómo es el método de pago?
 1. Envío de la liga de pago: Se enviará un enlace de pago a través de Stripe, el cual incluirá los descuentos aplicados y el IVA correspondiente
 2. Visualización mensual del cobro: Cada mes, se mostrará la cantidad de habitaciones o el metraje por el cual se está cobrando. Esta información estará disponible después del día 10 de cada mes.
 3. Cobro automático con tarjeta de crédito: Una vez que ingrese su tarjeta de crédito (TC), el cobro se realizará automáticamente sobre el mes vencido. Si el primer intento de cobro falla, se realizarán dos intentos adicionales.
