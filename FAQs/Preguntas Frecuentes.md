@@ -82,22 +82,7 @@ Puedes contactarnos por:
    - Reinicia tu dispositivo
    - Vuelve a instalar la aplicación
    - Inicia sesión nuevamente
-
-## Integraciones
-
-### ¿Con qué sistemas se integra NEIO?
-- Sistemas de gestión hotelera (PMS)
-- Software de contabilidad
-- Sistemas de control de acceso
-- Plataformas de mensajería (WhatsApp, Telegram)
-
-### ¿Cómo configuro una nueva integración?
-1. Ve a Configuración
-2. Selecciona "Integraciones"
-3. Elige la plataforma a integrar
-4. Sigue las instrucciones en pantalla
-5. Autoriza la conexión
-
+   
 ---
 
 <Info>
